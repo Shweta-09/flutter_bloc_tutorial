@@ -6,7 +6,8 @@ class Todo {
     required this.name,
     required this.createdAt,
   });
-
   @override
-  String toString() => 'Todo(name: $name, createdAt: $createdAt)';
+  String toString()=>'Todo(name:$name,createdAt:$createdAt)';
+
+
 }
